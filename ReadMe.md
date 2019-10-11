@@ -16,7 +16,7 @@ for filename in all_files:
 df = pd.concat(li, axis=0, ignore_index=True)
 ```
 
-The data was exported to a CSV file and loaded to a PostgreSQL database to finaliaze the ETL process. The following two queries were executed to finalize the data for Tableau:
+The data was exported to a CSV file and loaded to a PostgreSQL database to continue the ETL process. The following two queries were executed to finalize the data for Tableau:
 
 ```sql
  -- create table bikes to import the data from the data frame
